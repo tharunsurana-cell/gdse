@@ -1,0 +1,221 @@
+
+body {
+    
+    background-image:
+     
+    url('web\ iiti2.png');
+   
+ background-attachment: fixed;
+  
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: white;
+    color:white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    gap: 15px;}
+
+
+.myGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 150px;
+}
+#a{
+    display: flex;
+}
+#name{
+    width: 250px;
+    height: 45px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px ;
+    font-size: 15px;
+    color: orange;
+    text-align: center;
+    border-color: orange;
+   
+    
+}
+#add{
+   height: 50px;
+   color: white; 
+   background-color: orange;
+   width: 150px;
+   border: 0;
+  border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px ;
+   padding: 0%;
+   transition: 1s;
+}
+#add:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.manage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+}
+h2 { font-size: 1.25rem; margin-top: 0; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; }
+.group { display: flex; gap: 10px; margin-bottom: 10px; }
+input, select {
+    padding: 0.6rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.primary-btn { background:  #4f46e5; color: white; width: 100%; margin-top: 10px;
+transition: 1s; }
+.primary-btn:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+
+.tag-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+
+.tag {
+    background: rgb(122, 22, 22);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 4px 8px rgba(255, 77, 77, 0.8);
+
+}
+
+.checkbox-group {
+    display: block;
+   
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.settlement-box {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 5px;
+    border-color: #cbd5e1;
+    margin-top: 1rem;
+}
+
+table {
+    width: 100%;
+    border: 5px;
+    border: #f0fdf4;
+    border-collapse: collapse;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 3px solid #f1f5f9;
+    border-radius: 8px;
+}
+.reset {
+    border: transparent; 
+    border-radius: 8px;        /* As we discussed, for rounded corners */
+    padding: 10px 20px;
+    background-color: transparent;
+    
+    cursor: pointer;
+    
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#reset1{
+    color:whitesmoke ;
+    background-color: transparent;
+    transition: 0.3s;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+#reset1:hover {
+    background-color: #ff4d4d;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 77, 77, 0.8);
+}
+#b{
+    border-radius: 8px;
+    background-color: palevioletred;
+     box-shadow: 0 4px 8px rgba(107, 25, 92, 1);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     
+     text-align: center;
+     width: 150px;
+     gap: 15px;
+}
+#big{
+    display: flex;
+    justify-content: space-evenly;
+  width: 100%;
+
+}
+#c{
+    border-radius: 8px;
+    background-color: palevioletred;
+      box-shadow: 0 4px 8px rgba(107, 25, 92, 1);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     
+     text-align: center;
+     width: 200px;
+     gap: 15px;
+}
+#d{
+    border-radius: 8px;
+    background-color: palevioletred;
+      box-shadow: 0 4px 8px rgba(107, 25, 92, 1);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 25px;
+     
+     text-align: center;
+     width: 400px;
+     gap: 15px;
+}
+#e{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: dashed;
+    text-decoration-thickness: 6px;
+    background-color: palevioletred;
+    width: 500px;
+    text-align: center;
+    height: 60px;
+    margin-top: 5px;
+    border-radius: 9px;
+    box-shadow:  rgba(0,0,0,1);
+}
